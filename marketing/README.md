@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -11,6 +9,14 @@ yarn dev
 # or
 pnpm dev
 ```
+
+## Libraries
+
+#server-only
+
+server-only is suggested by Next.js documentation [the server only package](https://nextjs.org/docs/getting-started/react-essentials#the-server-only-package)
+
+- you can use the server-only package to give other developers a build-time error if they ever accidentally import one of these modules into a Client Component.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
