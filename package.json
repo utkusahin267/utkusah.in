@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "marketing": "yarn workspace marketing dev",
+    "app": "yarn workspace app dev"
+  },
+  "workspaces": [
+    "marketing",
+    "app"
+  ]
+}
