@@ -5,18 +5,14 @@ export const landingCollection = gql`
 query landingCollectionQuery {
   landingCollection {
     items {
-      sys {
-        id
-      }
+      landingTitle
     }
   }
 }
 `;
 
-export const getLanding = async () => {
-  const result = await contentfulClient.query({
+export const getLanding = async () => (
+  await contentfulClient.query<string>({
     query: landingCollection,
-  });
-    
-  return result;
-}
+  })
+);
