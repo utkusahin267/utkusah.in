@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --ext .js --config ./.eslintrc.js --cache --cache-strategy content ."
+    "lint": "eslint --config ./.eslintrc.js --cache --cache-strategy content ."
   },
   "dependencies": {
     "@apollo/client": "^3.7.15",
